@@ -44,7 +44,7 @@ Vagrant.configure(2) do |config|
   
   config.vm.provision "shell",
   	inline: "/bin/sh /scripts/bootstrap.sh"
-  end
+  #end
 
 
 
